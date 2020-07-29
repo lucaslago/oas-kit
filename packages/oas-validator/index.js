@@ -13,7 +13,6 @@ let ajv = require('ajv')({
     allErrors: true,
     verbose: true,
     jsonPointers: true,
-    patternGroups: true,
     extendRefs: true // optional, current default is to 'fail', spec behaviour is to 'ignore'
 });
 //meta: false, // optional, to prevent adding draft-06 meta-schema
