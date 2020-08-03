@@ -14,7 +14,7 @@ let ajv = require('ajv')({
     verbose: true,
     jsonPointers: true,
     extendRefs: true, // optional, current default is to 'fail', spec behaviour is to 'ignore'
-    schemaId: 'id'
+    schemaId: 'auto'
 });
 //meta: false, // optional, to prevent adding draft-06 meta-schema
 
